@@ -194,7 +194,7 @@ html {
 .img_discount::before {
     content: "";
 <<<<<<< HEAD
-    background: url('/chinese/Noodles.jpg') no-repeat center center/cover;
+    background: url('./chinese/Noodles.jpg') no-repeat center center/cover;
 =======
     background: url('/tree/main/img/chinese/Noodles.jpg') no-repeat center center/cover;
 >>>>>>> 992588bf7db80a6c64a63bce4b2746837540e337

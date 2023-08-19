@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="./css/login.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="logo">
+            <img src="./img/logo.jpg" alt="FoodyAdda.com">
+        </div>
+        <p>Login to <span>Foody Adda</span></p>
+        <div class="form">
+            <table cellspacing="10px">
+                <form action="index.html">
+                    <tr>
+                        <td>
+                            <label for="email">Email</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="text" type="email" name="email" id="email" placeholder="Enter your email"
+                                required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <label for="password">Password</label>
+                        </td>
+                        <td>
+                            <a class="anchor" href="forgotpass.html">Forgot password?</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="text" type="password" name="password" id="password"
+                                placeholder="Enter your password" maxlength="8" required>
+                        </td>
+
+                    </tr>
+                    <tr>
+                        <td>
+                            <!-- <input type="button" value="Login"> -->
+                            <a href="#"><button class="button"> Log in</button></a>
+                        </td>
+                    </tr>
+                </form>
+            </table>
+
+        </div>
+    </div>
+
+    <script>
+        let input = document.getElementsByClassName('text')[0];
+        // console.log(input);
+        input.addEventListener('click', () => {
+            input.style.border = "2px solid rgb(26, 193, 205)";
+            // input.classList.toogle("tog");
+        });
+        let input1 = document.getElementsByClassName('text')[1];
+        // console.log(input);
+        input1.addEventListener('click', () => {
+            input1.style.border = "2px solid rgb(26, 193, 205)";
+        });
+    </script>
+</body>
+
+</html>

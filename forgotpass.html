@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forgot password</title>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* CSS Reset */
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 400px;
+            border: 2px solid hsl(0, 2%, 92%);
+            margin: 90px auto;
+            background: #f2f2f2;
+            border-radius: 10px;
+            padding: 1px;
+            height: 70vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #logo {
+            margin: 20px auto;
+            /* border: 2px solid black; */
+            border-radius: 90px;
+            width: 30%;
+            text-align: center;
+            background-color: white;
+            margin-top: 20px;
+            height: 80px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #logo img {
+            height: 60px;
+            margin: 3px 6px;
+            border-radius: 50px;
+        }
+
+        #logo img:hover {
+            transform: rotate(30deg);
+
+        }
+
+        p {
+            text-align: center;
+            /* margin: 20px; */
+            margin-bottom: 10px;
+            color: black;
+            /* text-shadow: 2px 2px red; */
+            font-size: 20px;
+        }
+
+        p span {
+            font-weight: bolder;
+        }
+
+        .form {
+            width: 90%;
+            margin: auto;
+            /* border: 2px solid grey; */
+            margin-top: 10px;
+        }
+
+        label {
+            font-size: 18px;
+            font-weight: lighter;
+            width:30%;
+            /* font-style:initial; */
+        }
+
+        input {
+            padding: 5px;
+            border-radius: 5px;
+            border: none;
+            width: 95%;
+            height: 20px;
+            margin-bottom: 10px;
+            background-color: none;
+            outline: none;
+            font-size: 14px;
+            display: flex;
+        }
+
+        input::placeholder {
+            opacity: 0.8;
+        }
+
+        .button {
+            /* width: 100%; */
+            height: 30px;
+            border-radius: 5px;
+            border: none;
+        }
+
+        a .button {
+            width: 100%;
+            height: 35px;
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            background-color: rgb(15, 161, 81);
+        }
+
+        /* .button:hover {
+            transform: scale(1.2);
+        } */
+
+        td {
+            /* border: 2px solid green; */
+            width: 50%;
+        }
+
+        .anchor {
+            color: rgb(26, 193, 205);
+            /* margin-top: 30px; */
+            font-size: 15px;
+            /* margin-left: 100px; */
+            float: right;
+            text-decoration: none;
+            margin-right: 8px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div id="logo">
+            <img src="./img/logo.jpg" alt="FoodyAdda.com">
+        </div>
+        <p><span>Forgot Password</span></p>
+        <div class="form">
+            <table cellspacing="15px">
+                <form action="Login.html">
+                    <tr>
+                        <td>
+                            <label for="npass">New Password</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="text" type="password" name="npass" id="npass"
+                                placeholder="Enter your new password" maxlength="8" required="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="cpass">Confirm Password</label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input class="text" type="password" name="cpass" id="cpass" maxlength="8"
+                                placeholder="Confirm your password" required="">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <a href="Login.html"><button class="button">Submit</button></a>
+                        </td>
+                    </tr>
+
+                </form>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

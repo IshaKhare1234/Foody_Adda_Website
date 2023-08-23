@@ -118,7 +118,12 @@ html {
     margin: 50px;
     border-radius: 5px;
 }
-
+.img{
+    width: 298px;
+    height: 250px;
+    position: absolute;
+    z-index: -1;
+}
 .discount {
     width: 100%;
     height:70px;
@@ -131,7 +136,7 @@ html {
     margin-top: 180px;
 }
 .discount h2 {
-    /* text-shadow: 1px 1px red; */
+    text-shadow: 1px 1px red;
     font-weight: bold;
     color: white;
     font-size: 20px;
@@ -185,56 +190,6 @@ html {
     height: 250px;
     border: 1px solid white;
     /* outline: 1px solid red; */
-}
-
-
-.img_discount::before {
-    content: "";
-    background: url('/italian/Pasta.jpg') no-repeat center center/cover;
-    width: 298px;
-    height: 250px;
-    position: absolute;
-    z-index: -1;
-}
-.img_discount1::before {
-    content: "";
-    background: url('/italian/Gnocchi.jpg') no-repeat center center/cover;
-    width: 298px;
-    height: 250px;
-    position: absolute;
-    z-index: -1;
-}
-.img_discount2::before {
-    content: "";
-    background: url('/italian/Pizza.jpg') no-repeat center center/cover;
-    width: 298px;
-    height: 250px;
-    position: absolute;
-    z-index: -1;
-}
-.img_discount3::before {
-    content: "";
-    background: url('/italian/Lasagne.jpg') no-repeat center center/cover;
-    width: 298px;
-    height: 250px;
-    position: absolute;
-    z-index: -1;
-}
-.img_discount4::before {
-    content: "";
-    background: url('/italian/Risotto.jpg') no-repeat center center/cover;
-    width: 298px;
-    height: 250px;
-    position: absolute;
-    z-index: -1;
-}
-.img_discount5::before {
-    content: "";
-    background: url('/italian/Spaghetti.jpg') no-repeat center center/cover;
-    width: 298px;
-    height: 250px;
-    position: absolute;
-    z-index: -1;
 }
 
 .img_discount:hover {
